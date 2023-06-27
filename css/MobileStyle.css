@@ -1,0 +1,190 @@
+/*------------ Header ---------*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu{
+    display: none;
+}
+
+.hamburger-menu{
+    display: block;
+    position: fixed;
+    z-index: 22;
+    top:15px;
+    right: 30px;
+}
+.slider-left{
+    width: 100vw;
+}
+
+.text1 , .text2{
+    font-size: 2rem;
+}
+
+.text3{
+    font-size: 1.2rem;
+}
+
+.search{
+    width: 60%;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.more-program a{
+    font-size: 1rem;
+}
+
+
+.slider-img-top , .slider-img-bottom{
+    display: none;
+}
+
+/*-------------- main box -----------*/
+
+.header-container p{
+    width: 80%;
+}
+
+.box-container{
+    padding: 10px;
+}
+
+.box{
+    width:45%;
+}
+
+/*----------------- Description ---------------*/
+.description{
+    width:100%;
+    height:fit-content;
+    background-image: url("../image/calgary_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding:50px 30px;
+    margin-top: 0;
+}
+.description-main{
+    display: flex;
+    justify-content:left;
+    align-items: start;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.text , .text-right{
+    width:60%;
+    height: max-content;
+}
+
+/*-------- Gallery --------*/
+.description-gallery-top{
+    grid-column: 2/5;
+    margin-top: -30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.image-gallery-top{
+    display: none;
+}
+
+.description-gallery-bottom{
+    grid-column: 2/5;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 30px;
+}
+.description-gallery-bottom img{
+    width: 100%;
+    height: 280px;
+    margin: 30px 0 25px;
+}
+
+.image-gallery-bottom{
+    grid-column: 1/-1;
+    padding:30px;
+}
+
+
+/*----------- Time & Data --------*/
+.Date-and-Time-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+
+/*----------- About SATE -------*/
+.about-sate-container{
+    display: none;
+}
+
+.about-sate-image{
+    grid-column: 1/-1;
+}
+
+/*--------- footer -----*/
+.footer-header{
+    display: flex;
+    height: fit-content;
+    flex-direction: column-reverse;
+    row-gap: 10px;
+}
+
+.footer-top-menu{
+   width: 100%;
+}
+
+.footer-top-menu ul li a{
+    font-size: 10px;
+}
+
+.footer-top-img{
+   width: 100%;
+    justify-self: right;
+    align-self: end;
+}
+.footer-image{
+    width: 30%;
+    margin-right: -50px;
+}
+
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 20px;
+}
+
+.footer-box{
+    width: 50%;
+}
+
+
+/*--------- footer-fixe -----*/
+.footer-fixe{
+   display: none;
+}
+
+
+/*--------- Browse Areas of Interest Pages --------- */
+.comment-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    row-gap: 30px;
+}
+
+.comment-box-left{
+    width: 100%;
+}
+
+.comment-box-right{
+    width: 100%;
+    padding: 0;
+}
+
+

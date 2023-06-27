@@ -1,0 +1,192 @@
+.footer{
+    width: 100%;
+    height:auto;
+    color: white;
+}
+
+/*---------------- footer header ------------------ */
+.footer-header{
+    background-color: #551f64;
+    height: 90px;
+    padding:35px 50px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top-menu{
+    width: 75%;
+}
+.footer-top-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.button-footer{
+    background-color: #cda3d9;
+    padding: 10px 15px;
+    border: 1px solid #cda3d9;
+    border-radius: 20px;
+    transition: all 1s;
+    color: #5c2c69 ;
+}
+
+.button-footer:hover{
+    color: #551f64;
+    background-color: white;
+}
+
+.footer-top-img{
+    width: 25%;
+    height: inherit;
+    position: relative;
+}
+
+.footer-image{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*----------------- footer main ----------------*/
+.footer-main{
+    padding: 30px 30px 100px 50px;
+    background-color: #5e306c;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+}
+.footer-main h1{
+    color: #c9a1d3;
+    border-bottom: inset 1px  #c9a1d3;
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    font-weight: normal;
+}
+/*------------ box1---------------*/
+.footer-box1{
+    grid-column: 1/2;
+}
+.footer-box1 ul{
+    list-style: none;
+}
+.footer-box1 a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+.footer-box1 a:hover{
+    text-decoration: underline;
+}
+/*------------ box2 -------------*/
+.footer-box2{
+    grid-column: 2/3;
+}
+.footer-box2 span{
+    color: #c9a1d3;
+    display: inline-block;
+    margin-bottom:  10px;
+}
+.footer-box2 a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.footer-box2 a:hover{
+    text-decoration: underline;
+}
+/*------------ box3 -------------*/
+.footer-box3{
+    grid-column: 3/4;
+}
+.footer-box3 div{
+    margin-bottom: 10px;
+}
+.footer-box3 div span{
+    color:#c9a1d3 ;
+}
+.footer-box3 div a{
+    text-decoration: none;
+    color: white;
+}
+.footer-box3 div a:hover{
+    text-decoration: underline;
+}
+/*------------ box4 --------------*/
+.footer-box4{
+    grid-column: 4/5;
+    line-height: 30px;
+}
+
+.footer-logo-sait{
+    margin: 30px 0 30px;
+}
+.footer-box4 a{
+    text-decoration: none;
+    color: white;
+}
+/*------------------- footer fixe ---------------------*/
+.footer-fixe{
+    width: 100%;
+    background-color: #5e306c;
+    padding:10px 50px 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+.footer-fixe-left{
+    display: flex;
+}
+.footer-fixe-logo{
+    width: 45px;
+    height: 45px;
+}
+.footer-fixe-container{
+    color: white;
+    text-align: left;
+}
+.footer-fixe-container h2{
+    font-size: 18px;
+    margin: 0 0 10px 20px;
+}
+.footer-fixe-container p{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.footer-fixe-container p a{
+    color: white;
+    font-size:12px ;
+}
+.footer-fixe-right{
+    display: flex;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px 15px 5px 15px;
+}
+.footer-fixe-right img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.footer-fixe-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+

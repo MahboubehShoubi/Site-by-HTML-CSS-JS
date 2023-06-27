@@ -1,0 +1,43 @@
+.description{
+    width:100%;
+    height:100vh;
+    background-image: url("../image/calgary_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: -160px;
+    padding:270px 50px 150px;
+}
+.header-description{
+    font-size: 20px;
+}
+.description-main{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    margin-top: 10px;
+}
+.text{
+    width:30%;
+    height: 200px;
+}
+.h-text{
+    font-size: 35px;
+    color: #b2203b;
+}
+.p-text{
+    line-height: 25px;
+    font-size: 18px;
+    text-align: left;
+}
+.text-right{
+    background-color: #b2203b;
+    border-radius: 5px;
+    padding: 15px;
+}
+.text-right a{
+    text-decoration: none;
+    color: white;
+}
+.span-text{
+    text-decoration: none;
+}

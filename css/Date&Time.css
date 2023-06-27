@@ -1,0 +1,86 @@
+.date-and-Time{
+    margin-top: 70px;
+    padding: 50px;
+
+}
+.date-and-Time h1{
+    color: #656262;
+    margin-bottom: 20px;
+    font-size:2rem;
+}
+.Date-and-Time-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.box-right{
+    grid-column: 1/2;
+}
+.box-center{
+    grid-column: 2/3;
+}
+.container-box{
+    display: grid;
+    grid-template-columns: 15% 85%;
+   margin-right: 12px;
+}
+.calender-box{
+    grid-column: 1/2;
+    padding-top: 15px;
+}
+.information-calender{
+    grid-column: 2/3;
+}
+.date-container-box{
+    margin-top: 15px;
+}
+.info-link-calculator{
+    text-decoration: none;
+    color: #b2203b;
+    line-height: 25px;
+}
+.date-and-time-make{
+    font-size: 13px;
+    color: grey;
+}
+.date-container-box:hover{
+    background-color: #cecdcd;
+}
+.box-day{
+    width: 40px;
+    height: auto;
+    border: #b2203b 1px solid;
+    text-align: center;
+    overflow: hidden;
+}
+.header-calender{
+    background-color: #b2203b;
+    color: white;
+    font-size:10px;
+    padding:4px 8px 2px 8px;
+}
+.day-calender{
+    font-size: 22px;
+    color: #b2203b;
+}
+.day-week{
+    font-size: 8px;
+    color: #b2203b;
+}
+.date-and-time-button{
+    text-align: center;
+    margin-top: 70px;
+}
+.date-and-time-button a{
+    text-decoration: none;
+    color: #b2203b;
+    border: 1px solid #b2203b;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+}
+.date-and-time-button a:hover{
+    background-color: #b2203b;
+    color: white;
+}
